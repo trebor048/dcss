@@ -1,0 +1,60 @@
+
+/* macOS-style window controls */
+.winButtonClose_c38106::after,
+[aria-label^="Close"].winButton_c38106::after {
+    background: #f25f65
+}
+
+:is([aria-label^="Minimise"], [aria-label^="Minimize"]).winButton_c38106::after {
+    background: #f3c54f
+}
+
+:is([aria-label^="Maximise"], [aria-label^="Maximize"], [aria-label^="Restore"]).winButton_c38106::after {
+    background: #4bc26a
+}
+
+.winButtons_c38106 {
+    gap: 2px;
+    padding-right: 8px
+}
+
+.winButton_c38106 {
+    display: flex;
+    width: 28px;
+    align-items: center;
+    justify-content: center;
+    background: transparent !important
+}
+
+.winButton_c38106>svg {
+    display: none !important
+}
+
+.winButton_c38106::after {
+    display: block;
+    width: 13px;
+    height: 13px;
+    content: "";
+    border: 1px solid #14181db8;
+    border-radius: 50%;
+    box-shadow: inset 0 1px 1px #ffffff3d;
+    transition: filter 100ms ease, transform 100ms ease !important
+}
+
+.winButtonClose_c38106::after,
+[aria-label^="Close"].winButton_c38106::after {
+    background: #f25f65 !important
+}
+
+:is([aria-label^="Minimise"], [aria-label^="Minimize"]).winButton_c38106::after {
+    background: #f3c54f !important
+}
+
+:is([aria-label^="Maximise"], [aria-label^="Maximize"], [aria-label^="Restore"]).winButton_c38106::after {
+    background: #4bc26a !important
+}
+
+.winButton_c38106:hover::after {
+    filter: brightness(1.16);
+    transform: scale(1.08)
+}

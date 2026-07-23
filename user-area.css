@@ -1,0 +1,24 @@
+/* User Area */
+.theme-dark #app-mount .panels__5e434,
+.theme-dark .container__37e49,
+.theme-dark .container_e131a9 {
+    background: #0b141e
+}
+
+.panels__5e434>.container__37e49 {
+    height: 44px
+}
+
+.avatarWrapper__37e49 .nameTag__37e49 {
+    display: none
+}
+
+.panels__5e434>.container__37e49 button {
+    border-radius: 7px;
+    background: #2e6c9138
+}
+
+.panels__5e434>.container__37e49 button:hover {
+    color: #fff;
+    background: #566f8575
+}
