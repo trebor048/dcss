@@ -10,15 +10,11 @@
 .themedBackground__74017 {
     border: 1px ridge #72818d43;
     background: linear-gradient(115deg, #113144bd, #0b1a247a) !important;
-    box-shadow: none;
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none
 }
 /* Message Highlights */
 .unread__2ea32,
 .item__58105 {
     background: #71c6ef;
-    box-shadow: none;
     border-radius: 6px
 }
 
@@ -30,14 +26,12 @@
 .replying__5126c::before {
     width: 6px;
     background: linear-gradient(90deg, #71c5ef7d, #00000000);
-    box-shadow: none
 }
 /* Chat BG */
 .chatContent_f75fb0,
 .container_c8ffbb,
 .searchResultsWrap_a98f3b {
     margin: 0 4px 4px 0;
-    overflow: hidden
 }
 
 .chat_f75fb0>.subtitleContainer_f75fb0,
